@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maths Teacher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Virtual Maths Teacher</h1>
+    <div class="upload-image">
+      <div class="inner-upload-img">
+        <input type="file" hidden>
+        <img src="" alt="" id="image">
+        <img src="button.png" alt="Upload Icon" class="upload-icon" id="icon"/>
+        <span>Upload Image</span>
+      </div>
+      <button class="answer-btn">Answer</button>
+    </div>
+  
+    <img src="loading.gif" alt="" width="30px" id="loading">
+    <div class="output">
+        <pre id="text"></pre>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
